@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  pgo:
+  - apiVersion: v2
+    appVersion: 5.3.1
+    created: "2023-05-29T13:27:19.131966227-07:00"
+    description: Installer for PGO, the open source Postgres Operator from Crunchy
+      Data
+    digest: 3bd6f5dbfad8882d6821c38c45a54d1c7b2dd5f33d48784b903a29d6e2526d8f
+    name: pgo
+    type: application
+    urls:
+    - https://sparkgeo.github.io/postgres-operator-examples/pgo-5.3.1.tgz
+    version: 5.3.1
+  postgrescluster:
+  - apiVersion: v2
+    appVersion: 5.3.1
+    created: "2023-05-29T13:27:19.132643832-07:00"
+    description: A Helm chart for Kubernetes
+    digest: fcb8e2ab47c33159b5829a5bd02dfe07949dfef3de8810dacbf0a0417a8350a1
+    name: postgrescluster
+    type: application
+    urls:
+    - https://sparkgeo.github.io/postgres-operator-examples/postgrescluster-5.3.1.tgz
+    version: 5.3.1
+generated: "2023-05-29T13:27:19.125799357-07:00"
