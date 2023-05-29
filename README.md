@@ -15,3 +15,12 @@ You can find the full [PGO documentation](https://access.crunchydata.com/documen
 You can find out more information about [PGO](https://github.com/CrunchyData/postgres-operator), the [Postgres Operator](https://github.com/CrunchyData/postgres-operator) from [Crunchy Data](https://www.crunchydata.com) at the project page:
 
 [https://github.com/CrunchyData/postgres-operator](https://github.com/CrunchyData/postgres-operator)
+
+# Sparkgeo Fork
+
+This fork has added the Helm packages and an `index.yaml` so that this repo can be used to deploy Helm charts. The following is an example:
+
+```
+helm repo add spk-pgo https://sparkgeo.github.io/postgres-operator-examples
+helm install my-pgo spk-pgo/pgo 
+```
